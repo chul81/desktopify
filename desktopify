@@ -227,7 +227,7 @@ fi
 # Check if we're running 20.04
 CODENAME=$(lsb_release -cs)
 case ${CODENAME} in
-    focal)
+    focal | jammy)
         # Do nothing, as this is a supported release.
         ;;
     *)
